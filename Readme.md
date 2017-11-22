@@ -4,6 +4,10 @@
 - Cássio Santos
 
 ## Participantes
-- Rodrigo Miranda
 - Eduardo Marques
 - Cássio Santos
+- Mateus Lima
+- Gabriel Silva de Azevedo
+- Emerson de Brito Souza
+- Ariana Pereira
+- Rodrigo Miranda
