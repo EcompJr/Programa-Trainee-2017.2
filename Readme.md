@@ -4,14 +4,17 @@
 - Cássio Santos
 
 ## Participantes
+
+
+- IVANILDO
+- Ramon Silva
+- Emerson de Brito Souza
 - Emanuel Santana
 - Eduardo Marques
 - Glauber da Silva Santana
 - Gabriel Silva de Azevedo
 - Cássio Santos
-- Emerson de Brito Souza
-- Eduardo Marques
-- Cássio Santos
-- Mateus Lima
 - Ariana Pereira
 - Rodrigo Miranda
+- Mateus Lima
+- Ariana Pereira
