@@ -4,7 +4,6 @@
 - Cássio Santos
 
 ## Participantes
-<<<<<<< HEAD
 - Mateus Lima
 - Gabriel Silva de Azevedo
 - Eduardo Marques
