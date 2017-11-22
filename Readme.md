@@ -5,3 +5,5 @@
 
 ## Participantes
 - Rodrigo Miranda
+- Eduardo Marques
+- Cássio Santos
