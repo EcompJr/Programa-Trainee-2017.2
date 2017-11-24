@@ -5,9 +5,7 @@
 
 ## Participantes
 
-
-- Werisson Mota
-- Eduardo Marques 
+- Werisson Mota 
 - Ivanildo Gomes
 - Ramon Silva
 - Emerson de Brito Souza
@@ -19,3 +17,4 @@
 - Emerson de Brito Souza
 - Mateus Lima
 - Ariana Pereira
+- Daniel Santana
