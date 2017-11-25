@@ -1,0 +1,48 @@
+h2{
+	color: red;
+	font-family: courier;
+}
+
+.testclass{
+	background-color: rgb(0,0,255); 
+}
+
+#testid{
+	background-color: rgb(255,255,0);
+}
+
+button:hover{
+	color: red;
+}
+
+button:active{
+	color: purple;
+}
+
+.texto{
+	font-family: helvetica;
+	font-size: 100%;
+}
+
+p{
+	text-align: center;
+	font-style: italic;
+	font-weight: 900;
+	word-spacing: 2em;
+	line-height: 2em;
+}
+
+div{
+	margin: 20px 10px;
+}
+
+#divteste::after{
+	margin: 50px 50px;
+	background-color: pink;
+	border: dotted 10pt blue;
+}
+
+span{
+	text-transform: uppercase;
+}
+
