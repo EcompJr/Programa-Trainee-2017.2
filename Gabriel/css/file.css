@@ -1,0 +1,34 @@
+body{
+	position: relative;
+	width: 1200;
+	background-color: black;
+	font-size:14;
+	font-family: arial;
+	color: white;
+	padding: 3px;
+	margin: 3px, 300px;
+
+}
+p{
+	font-style: italic;
+	line-height: 2em;
+}
+div{
+	position: relative;
+	margin: auto;
+	border-style: dashed;
+	width: 1200;
+}
+h1, h2, h3{
+	font-size: 2em;
+}
+button:active{
+	color: red;
+}
+button:hover{
+	size: 0.01px;
+	font-size: 0.01px;
+}
+table{
+	position: relative;
+}
