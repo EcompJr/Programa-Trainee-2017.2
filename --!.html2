@@ -1,0 +1,102 @@
+<!-- Rodrigo Miranda -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<title>Lalalala</title>
+		<style type="text/css">
+			h2{
+				background-color: black;
+				color: white;
+				font-family: arial;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h2>alsdlasldas</h2>
+		<h3>asdjkfhaskdjfhaksd</h3>
+		<a href="http://geradormemes.com/media/created/fx973a.png" target="_blank">Clique aqui</a>
+		<p style="background-color: grey; color: black; font-family: arial; font-size:200%; text-align: center; margin: 20px 20px; padding:20px 20px; ">
+			Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisicing elit. <br> Nam accusantium voluptatum quia quam rem blanditiis ad! <br>Vel in optio quisquam <ins>odio</ins> voluptate, non quae <b>quibusdam</b> provident <ins>minima</ins> aliquam unde adipisci.
+		</p>
+		<div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsum atque illum asperiores hic error quos explicabo, nesciunt facere incidunt iusto, magni reiciendis, non ex vero, eum earum obcaecati cupiditate!
+			</p>
+		<ul>
+			<li>
+				<ol>
+					<li>Pato muito louco correndo</li>
+					<li>Pato que redireciona ao google</li>
+				</ol>
+			</li>
+		</ul>
+
+		</div>
+		
+		<img src="http://static1.purebreak.com.br/articles/8/74/78/@/39759-pato-correndo-de-forma-engracada-624x0-1.jpg" alt="erro" width="800">
+		<a href="https://www.google.com" target="_blank"><img src="https://i.ytimg.com/vi/cO_7HqxjNiM/maxresdefault.jpg" width="700"></a> <!-- imagem com link pro google -->
+		<form >
+			Nome: <input type="text" name="" placeholder="Digite seu nome"><br>
+			Sobrenome: <input type="text" name="" placeholder="Digite seu sobrenome"><br>
+				
+			<br> <input type="radio" name="genero" value="feminino checked"> Feminino
+			<input type="radio" name="genero" value="masculino checked"> Masculino
+		</form>
+		<form oninput="Resultado.value=parseInt(a.value)*parseInt(b.value)">
+			0<input type="range" id="a" value="100">100 * 
+			<input type="number" id="b" value="0"> =
+			<output name="Resultado" for="a b"></output>
+		</form>
+		<form oninput="Resultado.value=parseInt(a.value)/parseInt(b.value)">
+			0<input type="range" id="a" value="100">100 / 
+			<input type="number" id="b" value="0"> =
+			<output name="Resultado" for="a b"></output>
+		</form>
+		<form oninput="Resultado.value=parseInt(a.value)+parseInt(b.value)">
+			0<input type="range" id="a" value="100">100 + 
+			<input type="number" id="b" value="0"> =
+			<output name="Resultado" for="a b"></output>
+		</form>
+		<form oninput="Resultado.value=parseInt(a.value)-parseInt(b.value)">
+			0<input type="range" id="a" value="100">100 - 
+			<input type="number" id="b" value="50"> =
+			<output name="Resultado" for="a b"></output>
+		</form>
+		<select name="Carros">
+		<option value="volvo"> 1.Volvo</option>
+		<option value="fuxxxca"> 2.Fuxxxca</option>
+		</select>
+		<ul>
+			<li>
+				<ol>
+					<li> <img src="https://assets.volvocars.com/br/~/media/shared-assets/master/images/homepage/v426-homepage/homepage_hero_new_xc60.jpg?w=480">
+					<form><input type="radio" name="Carros" value="Carros" checked> </li>
+					<li> <img src="https://http2.mlstatic.com/D_NQ_NP_639169-MLB25711011564_062017-UB.jpg"><br>
+					<input type="radio" name="Carros" value="Carros" checked></form> </li>
+				</ol>
+			</li>
+		</ul>
+		<button style="background-color: red; text-align: center;" type="button" onclick="alert ('Kk eae men')">  Botao</button>
+		<table>
+			<thead>
+				<tr>
+					<th>cidade</th>
+					<th>estado</th>
+					<th>país</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Feira de Santana</td>
+					<td>Bahia</td>
+					<th>Brasil</th>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
