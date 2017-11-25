@@ -1,0 +1,90 @@
+/*id usado unica vez*/
+#class{
+	background-color: verdana;
+	color: green;
+	size: 20;
+}
+/*classe normal*/
+.classe{
+	background-color: blue;
+	color: black;
+	size: 30;
+}
+/*modifica o p*/
+p{	
+	border-style: solid;
+	border-width: 3px;
+	font-family: arial;	
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: overline;
+	text-transform: capitalize;
+}
+/*modifica o div*/
+div{
+	width:auto;
+	letter-spacing: 0.5em;
+	word-spacing: 2em;
+	line-height: 1.5;
+	text-align: center;
+	text-indent: 1.0em;
+
+}
+
+b{
+	width: 60vw;
+	margin: auto;
+	margin: 50px 50px;
+	padding: 20px;
+
+}
+
+
+div+p{
+
+
+}
+/*os p dentro desse div*/
+div p{
+
+
+}
+/*apenas o proximo div dps do principal*/
+div>div{
+
+}
+/*igual ao anterior*/
+div:firt-child{
+
+}
+/*o div e o p*/
+div,p{
+
+
+}
+/*todos p no div*/
+div~p{
+
+
+}
+
+a::active{
+	color: blue;
+}
+
+.first{
+	background-color: green;
+}
+
+.second{
+	background-color: blue;
+	position: absolute;
+	top: 0;
+
+}
+
+.third{
+	background-color: brown;
+	position: fixed;
+
+}
