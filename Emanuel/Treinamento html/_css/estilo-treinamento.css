@@ -1,0 +1,33 @@
+@charset "UTF-8"
+
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+
+}
+p{
+	text-align: justify;
+	font-size: 30px;
+	margin: auto;
+}
+div{
+	width: 60vw;
+	margin: auto;
+}
+body{
+	background-color: rgba(90,90,90,.3);
+}
+div#divis{
+	padding: 20px;
+	background-color: #404040;
+	color: #FFFFFF;
+	border: solid 7px #76FFAE;
+}
+div#divis:active{
+background-color: #123456;
+}
+div#divis:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	text-transform: 
+}
