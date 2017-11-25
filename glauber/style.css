@@ -1,0 +1,68 @@
+@font-face{
+	font-family: sans-serif;
+    src: url("https://fontlibrary.org/face/tex-gyre-adventor");
+
+}
+
+body{
+	background-image: url("");
+	background-color: cyan;
+	font-family: sans-serif;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 72px;
+	text-align: center;
+	border-top-left-radius: 10px 10px 10px 10px;
+}
+
+#menu {
+	word-spacing: 200px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+}
+
+
+#menu ul li a {
+
+    display: inline-block;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+	font-family: 'TeXGyreAdventorRegular'; 
+   	font-weight: normal; 
+   	font-style: normal; 
+
+}
+
+
+#menu ul li{
+	display: inline;
+	
+}
+
+div{
+
+	width: 60vw;
+	margin: auto;
+	margin: 50px 15px;
+	padding: 20px 20px;
+	border: double 5px;
+	border-style: solid;
+	align-items: center;
+
+}
+
+#registration {
+	
+	border-style: solid;
+	border-radius: 5px
+
+}
