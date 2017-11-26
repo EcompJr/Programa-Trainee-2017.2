@@ -1,0 +1,27 @@
+input:hover{
+	font-size: 1.5em;
+}
+table{
+	background-color: LightGray;
+	align: center;
+	border-spacing: 5px;
+	border-color: black;
+	border-width: 3px;
+}
+input{
+	width: 5em;
+}
+body{
+	align: center;
+}
+th:hover{
+	font-size: 2em;
+
+}
+div{
+	sty
+	padding: 50px;
+}
+tr{
+	align-content: center;
+}
