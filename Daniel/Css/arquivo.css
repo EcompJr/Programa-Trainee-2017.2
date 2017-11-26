@@ -1,0 +1,22 @@
+
+body{
+	background-color: red;
+	color: red;
+	font-size: 12pt;
+}
+p{
+	letter-spacing: 0.5cm;
+}
+div{
+	width: 60vw;
+	margin: auto;
+	margin-top:auto;
+	border: groove 5pt;
+
+}
+a:hover{
+	color: blue;
+	font-size: 20pt;
+
+
+}
