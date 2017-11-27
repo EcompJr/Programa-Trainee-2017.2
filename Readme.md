@@ -5,7 +5,6 @@
 
 ## Participantes
 
-
 - Werisson Mota
 - Eduardo Marques 
 - Ivanildo Gomes
@@ -16,6 +15,6 @@
 - Glauber da Silva Santana
 - Gabriel Silva de Azevedo
 - Cássio Santos
-- Emerson de Brito Souza
 - Mateus Lima
 - Ariana Pereira
+- Andressa Borges
