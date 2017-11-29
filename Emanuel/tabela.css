@@ -1,0 +1,13 @@
+@charset "UTF-8"
+
+#dados{
+
+}
+th{
+	padding: 7px;
+	color: #123456;	
+	font-size: 18pt;		
+}
+th:hover{
+	font-size: 35pt;
+}
