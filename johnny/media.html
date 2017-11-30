@@ -1,0 +1,59 @@
+<html>
+<head>
+<script language="javascript">
+function calcular()
+{
+var nota1, nota2, nota3, media;
+nota1 = frmMedia.txtNota1.value;
+nota2 = frmMedia.txtNota2.value;
+nota3 = frmMedia.txtNota3.value;
+nota1 = parseFloat(nota1);
+nota2 = parseFloat(nota2);
+nota3 = parseFloat(nota3);
+media = (nota1 + nota2 + nota3)/3;
+frmMedia.txtMedia.value = media;
+}
+</script>
+</head>
+<body>
+
+  <table class="table-hover">
+  <thead>
+    <tr>
+    <th>Nome</th>
+    <th>Notas</th>
+    <th>Média</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>Johnny</td>
+
+    <td>media</td>
+    <td>teste</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+
+    <td>media</td>
+    <td>teste</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+
+    <td>media</td>
+    <td>teste</td>
+  </tr>
+  </tbody>
+  
+  
+  
+</table>
+
+
+
+
+<br><input type="button" value="Calcular" onclick="javascript:calcular();"/><br>
+
+</body>
+</html>

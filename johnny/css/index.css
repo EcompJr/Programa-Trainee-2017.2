@@ -1,0 +1,21 @@
+img{
+	width:120px;
+	height:120px;
+
+}
+.container-fluid .row div:first-child{
+	background-color: red;
+	text-align:center; 
+}
+.container-fluid .row div:nth-child(2){
+	background-color:blue ;
+	text-align:center; 
+}
+.container-fluid .row div:nth-child(3){
+	background-color:orange ;
+	text-align:center; 
+}
+.container-fluid .row div:nth-child(4){
+	background-color: yellow ;
+	text-align:center; 
+}

@@ -1,0 +1,43 @@
+<html>
+<head>
+<script language="javascript">
+function calcular()
+{
+var nota1, nota2, nota3, media;
+nota1 = frmMedia.txtNota1.value;
+nota2 = frmMedia.txtNota2.value;
+nota3 = frmMedia.txtNota3.value;
+nota1 = parseFloat(nota1);
+nota2 = parseFloat(nota2);
+nota3 = parseFloat(nota3);
+media = (nota1 + nota2 + nota3)/3;
+frmMedia.txtMedia.value = media;
+}
+</script>
+</head>
+<body>
+  <form name ="frmMedia">
+  <table>
+  <tr>
+    <th>Nome</th>
+    <th>Notas</th>
+    <th>Média</th>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+
+    <td><input type ="text" name="txtNota1" size="1"/>
+    <input type ="text" name="txtNota2" size="1"/>
+    <input type ="text" name="txtNota3" size="1"/></td>
+    <td><input type ="text" name="txtMedia"/></td>
+  </tr>
+</table>
+
+
+
+
+<br><input type="button" value="Calcular" onclick="javascript:calcular();"/><br>
+
+</form>
+</body>
+</html>
