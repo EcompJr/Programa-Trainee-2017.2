@@ -1,0 +1,59 @@
+<!-- Rodrigo Miranda -->
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+        <link rel="stylesheet" type="text/css" href="css/Untitled-2.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<title>Sistema de cálculo de médias</title>
+		<style type="text/css">
+			h2{
+				background-color: rgb(59, 23, 23);
+				color: white;
+				font-family: arial;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+
+
+
+		<h2>Bem vindo ao sistema de cálculo de médias</h2>
+        <a href="https://media.giphy.com/media/11lf0xweS1JOV2/giphy.gif" target="_blank">Não clique aqui</a>
+        
+		<p>
+            Para calcular sua média digite suas 3 notas, respectivamente
+
+        </p>
+        
+        <form oninput="Resultado.value=(parseFloat(a.value)+parseFloat(b.value)+parseFloat(c.value))/3">
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Nome</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Média</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="" placeholder="Digite seu nome"></td>
+                        <td><input type="number" id="a" value="0"></td>
+                        <td><input type="number" id="b" value="0"></td>
+                        <td><input type="number" id="c" value="0"></td>
+                        <td><output name="Resultado" for="a b c"></output></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+	</body>
+</html>
