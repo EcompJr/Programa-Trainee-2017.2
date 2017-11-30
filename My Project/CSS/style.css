@@ -1,3 +1,5 @@
+/*Style para o primeiro codigo html
+
 h2{
 	color: red;
 	font-family: courier;
@@ -45,4 +47,67 @@ div{
 span{
 	text-transform: uppercase;
 }
+*/
+table{
+	border-collapse: collapse;
+}
 
+th,td{
+	text-align: center;
+	padding: 0px 0px;
+}
+
+.tdmeio{
+	text-align: center;
+	border-style: groove;
+	border-collapse: collapse;
+	padding: 10px 10px;
+}
+
+
+th:hover{
+	font-size: 2.5em;
+}
+
+.thname{
+	width: 100px;
+	height: 25px;
+}
+
+.thgrades{
+	width: 120px;
+	height: 25px;
+}
+
+.thmedia{
+	width: 40px;
+	height: 25px;
+}
+
+.inputname{
+    width: 100px;
+	height: 25px;
+    padding: 0px 0px;
+    margin: 0 0;
+    box-sizing: border-box;
+	border: 0.5px solid gray;
+	text-align: center;
+	background-color: cyan;
+}
+
+.inputnumber{
+	width: 40px;
+	height: 25px;
+    padding: 0px 0px;
+    margin: 0 0;
+    box-sizing: border-box;
+	border: 0.5px solid gray;
+	text-align: center;
+	background-color: yellow;
+}
+
+.outputmedia{
+	text-align: center;
+	width: 40px;
+	height: 25px;
+}
