@@ -1,0 +1,36 @@
+div{
+	color: blue;
+	font-style: arial;
+	width: 80vw;
+	margin: auto;
+	padding: 10px 10px;
+	border-style: solid;
+}
+.minhaclase{
+	background-color:blue; 
+}
+body {
+	background-color: red;
+}
+p{
+	text-align: center;
+	font-family: arial;
+	font-weight: 900;
+	font-size: 500:
+	line-height:2em;
+	word-spacing: 2em;
+}
+button:hover{
+	color: red;
+	font-size: 100;
+
+}
+button:active{
+	color: blue;
+	font-size: 300;
+} 
+
+
+
+
+
