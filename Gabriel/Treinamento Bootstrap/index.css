@@ -1,0 +1,28 @@
+#id1 {
+	padding: 100px;
+}
+#head{
+	margin-left: 50px;
+	margin-right: 50px;
+	align-self: left;
+}
+#tit{
+	
+	color: white;
+	
+}
+
+.logo {
+	width: 105px;
+	margin : 5px;
+}
+#tu {
+	font-style: italic;
+	margin-top: 35px;
+	color: black;
+}
+
+.foto{
+	display: -webkit-box;
+}
+

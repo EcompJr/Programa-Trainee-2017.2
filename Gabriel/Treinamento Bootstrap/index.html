@@ -1,0 +1,79 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+
+	<title>Bootstrap</title>
+</head>
+<body background="images/maxresdefault.jpg">
+	<header id="head" style="background-color: white" class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 foto" align="left">  <!--Heading da pagina  --> 
+				<img src="images/portal.png" alt="" class="img-circle logo">
+				
+				<h1 id="tu">Portal</h1>
+				
+			</div>
+
+		</div>
+	</header>
+	<div class="container-fluid" align="center">
+		
+		<div class="row">
+			<div class="col-md-12 col-sm-4">
+				<h1 id="tit">
+					Irineu irineu irineu, vc nao sabe nem eu, irineu irineu
+				</h1>
+				
+				
+			</div>
+			<img src="images/ala.jpg" class="img-rounded">
+			<img src="images/ala.jpg" class="img-circle">
+
+		</div>
+		<div class="row">
+			<div align="center" style="background-color: black">
+			<table class="table-hover">
+				<tr>
+					<th>Nome</th>
+					<th>Notas</th>
+					<th>Media</th>
+				</tr>
+				<tr>			
+					<td>IRINEU</td>
+					<td>
+							<form oninput="resu.value=parseFloat(((parseInt(nota1.value)+parseInt(nota2.value)+parseInt(nota3.value))/3).toFixed(2))" >
+							<input type="text" id="nota1" placeholder="nota1">
+							<input type="text" id="nota2" placeholder="nota2">
+							<input type="text" id="nota3" placeholder="nota3">							
+					</td>
+					<td>			
+						<output name="resu" for="nota1 nota2 nota3">Pts								
+						</output>			
+					</td>
+					</form>
+				</tr>
+				<tr>			
+					<td>AGATHA</td>
+					<td>
+							<form oninput="resu.value=parseFloat(((parseInt(nota1.value)+parseInt(nota2.value)+parseInt(nota3.value))/3).toFixed(2))" >
+							<input type="text" id="nota1" placeholder="nota1">
+							<input type="text" id="nota2" placeholder="nota2">
+							<input type="text" id="nota3" placeholder="nota3">							
+					</td>
+					<td>			
+						<output name="resu" for="nota1 nota2 nota3">Pts								
+						</output>			
+					</td>
+					</form>
+				</tr>
+			</table>
+			</div>
+		</div>
+		
+		
+	</div>
+</body>
+</html>
