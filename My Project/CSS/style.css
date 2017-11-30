@@ -48,6 +48,7 @@ span{
 	text-transform: uppercase;
 }
 */
+/*
 table{
 	border-collapse: collapse;
 }
@@ -110,4 +111,17 @@ th:hover{
 	text-align: center;
 	width: 40px;
 	height: 25px;
+}
+*/
+
+.container-fluid .row div:first-child{
+	background-color: #FF022F;
+}
+
+.container-fluid .row div:nth-child(2){
+	background-color: green;
+}
+
+.container-fluid .row div:last-child{
+	background-color: rgba(90,0,90,0.5);
 }
