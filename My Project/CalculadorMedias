@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Calculador de Médias</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div>
+			<h3>Calculador de Médias</h3>
+			<table>	
+				<thead>
+					<tr>
+						<th class="thname">Nome</th>
+						<th class="thgrades">Notas</th>
+						<th class="thmedia">Media</th>
+					</tr>
+				</thead>
+			</table>
+			<form oninput="media.value=(parseInt(g1.value)+parseInt(g2.value)+parseInt(g3.value))/3">
+				<input class="inputname"type="text">
+				<input id="g1" class="inputnumber" type="text">
+				<input id="g2" class="inputnumber" type="text">	
+				<input id="g3" class="inputnumber" type="text">
+				<output name="media" class="outputmedia" for="g1 g2 g3"></output>
+			<form>	
+		</div>
+	</body>
+</html>
