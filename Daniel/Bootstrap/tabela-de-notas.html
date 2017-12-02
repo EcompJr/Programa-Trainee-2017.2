@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tebela de Notas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+
+	<style type="text/css">
+		
+	
+		table th:hover{
+			font-size: 20pt;
+		}
+
+		table td:hover{
+			background-color: #606060;
+			transition: background-color 2s;
+		}
+	
+	
+
+	</style>
+
+</head>
+
+<body>
+
+			<!-- Tabelas -->
+
+<table class="table-hover" border="1" cellpadding="20px" cellspacing="0px" align="center">
+	<tr>
+		<th>Nome</th>
+		<th>Notas</th>
+		<th>Media</th>
+	</tr>
+
+	<tr>
+		<td>
+			<form>
+				<input type="text" name="nome1" size="10" placeholder="Nome">
+			</form>
+		</td>
+		<td>
+			<form oninput="resultado.value = ((parseInt(nota1.value) + parseInt(nota2.value) + parseInt(nota3.value))/3).toFixed(2)">
+			<input type="text" name="nota1" size="1" style="width: 50px">
+			<input type="text" name="nota2" size="1" style="width: 50px ">
+			<input type="text" name="nota3" size="1" style="width: 50px">
+		
+			<form>
+		</td>
+		<td>
+
+			<output name="resultado" for="nota1 nota2 nota3" ></output>
+			
+
+		</td>
+	</tr>
+
+
+	<tr>
+		<td>
+			<form>
+				<input type="text" name="nome1" size="10" placeholder="Nome">
+			</form>
+		</td>
+		<td>
+			<form oninput="resultado.value = ((parseInt(nota1.value) + parseInt(nota2.value) + parseInt(nota3.value))/3).toFixed(2)">
+			<input type="text" name="nota1" size="1" style="width: 50px">
+			<input type="text" name="nota2" size="1" style="width: 50px ">
+			<input type="text" name="nota3" size="1" style="width: 50px">
+			
+			<form>
+		</td>
+		<td>
+
+			<output name="resultado" for="nota1 nota2 nota3" ></output>
+			
+
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<form>
+				<input type="text" name="nome1" size="10" placeholder="Nome">
+			</form>
+		</td>
+		<td>
+			<form oninput="resultado.value = ((parseInt(nota1.value) + parseInt(nota2.value) + parseInt(nota3.value))/3).toFixed(2)">
+			<input type="text" name="nota1" size="1" style="width: 50px">
+			<input type="text" name="nota2" size="1" style="width: 50px ">
+			<input type="text" name="nota3" size="1" style="width: 50px">
+			
+			<form>
+		</td>
+		<td>
+
+			<output name="resultado" for="nota1 nota2 nota3" ></output>
+			
+
+		</td>
+	</tr>
+
+	
+
+
+</table>
+
+</body>
+</html>

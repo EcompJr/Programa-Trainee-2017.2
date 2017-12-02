@@ -1,0 +1,13 @@
+img{
+	width: 200px;
+}
+.container-fluid .row div:first-child{
+	background-color: #606060;
+}
+.container-fluid .row div:last-child{
+	background-color: blue;
+}
+.container-fluid .row div:nth-child(2){
+	
+	background-color: yellow;
+}
