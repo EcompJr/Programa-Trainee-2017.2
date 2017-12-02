@@ -1,0 +1,7 @@
+table th:hover{
+			font-size: 20pt;
+}
+table td:hover{
+			background-color: #606060;
+			transition: background-color 2s;
+}
