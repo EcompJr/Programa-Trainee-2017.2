@@ -1,6 +1,6 @@
 # Programa Trainee 2017.2
 
-## Ministrantes
+# Ministrantes
 - Cássio Santos
 
 ## Participantes
