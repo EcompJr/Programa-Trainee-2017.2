@@ -1,0 +1,21 @@
+.img-rounded{
+	height: 30%; 
+	width: 30%;
+}
+.img-circle{
+ 	height: 30%;
+ 	width: 30%;	
+}
+.img-thumbnail{
+ 	height: 30%;
+ 	width: 30%;
+}
+.col-md-5{
+	background-color: black; 
+}
+.col-md-4{
+	background-color: green;
+}
+.col-md-3{
+	background-color: white;
+}
