@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	</head>
+	<body>
+		
+		<div>
+			<img src="imagens/apagada.jpg" id="lampada"  onmouseover="controle(event, 'acender')" onmouseout="controle(event, 'apagar')" onclick="controle(event, 'quebrar')" ondblclick="controle(event, 'restaurar')">
+		</div>
+		<div>
+			<img src="imagens/apagada.jpg" id="lampada2" onmouseover="controle(event, 'acender')" onmouseout="controle(event, 'apagar')" onclick="controle(event, 'quebrar')" ondblclick="controle(event, 'restaurar')">
+		</div>
+
+		<img src="imagens/paradoo.png" id="pessoa" onmouseover="andando()" onmouseleave="parado()">
+
+	</body>
+	<script src="assets/js/index.js"></script>
+</html>
