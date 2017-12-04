@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabela</title>
+        
+        <style type="text/css">
+            table th{
+                background: blue;
+                color: black;
+            }
+            table td{
+                background: green;
+                color: white;
+            }
+            table th:hover{
+                font-size: 20pt;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form oninput="media.value=(parseFloat(n1.value)+parseFloat(n2.value)+parseFloat(n3.value))/3">
+            <table border="2" align="center">
+                <caption>Obter média</caption>
+                <thead style="">
+                    <tr>
+                        <th>Nome</th>
+                        <th>Notas</th>
+                        <th>Média</th>
+                    </tr>
+                    </thead>
+        
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="Nome" placeholder="Nome"></td>
+                        <td><input type="text" style="width:45px;" name="nota1" placeholder="Nota 1" id="n1">
+                        <input type="text" style="width:45px; name="nota2" placeholder="Nota 2" id="n2">
+                        <input type="text" style="width:45px; name="nota3" placeholder="Nota 3" id="n3"> </td>
+                        <td><output name="media" for="n1 n2 n3" value></output></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    
+    </body>
+</html>
