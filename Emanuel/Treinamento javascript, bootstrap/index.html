@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Treinamento Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+</head>
+<body>
+
+	<div >
+		<img id="imagem1" src="imagens/IMG-20160228-WA0025.jpg" alt="" class="img-rounded">
+		<!--<img id src="" alt = "" class="img-circle" clas="img-thumbnail">-->
+	</div>
+
+	<h1 onmouseover="pa()">Sistema de grid</h1>
+<!-- onclick quando clica, onmouseover, onmouseout, onfocus, onblur-->
+<p id="titulo" onmouseover="botao()">Paragrafo</p>
+
+
+
+	<div class="container-fluid">
+		<div class="row" ">
+
+			<div >
+				<form>
+					<div class="form-group">
+						<label for="janEmail">Digite seu email</label>
+						<input type="email" id="janEmail" class="form-control" placeholder="email@example.com">
+					</div>
+					<div>
+						<label for="senha">Senha</label>
+						<input type="password" id="senha" class="form-control" placeholder="digite sua senha">
+					</div>					
+					<button type="submit" class="btn btn-sucess">Entrar</button>
+				</form>
+			</div>
+
+			<div class="col-md-4 col-sm-12"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo rem, nam incidunt aliquid unde, velit, non sequi quam libero odit eaque, debitis corporis eligendi! Accusamus, pariatur incidunt magnam ut aspernatur!
+			</div>
+
+			<div class="col-md-6 col-sm-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea deserunt, fuga nemo corrupti dolore a accusantium expedita placeat. Quidem in debitis, dignissimos veniam esse. Aspernatur aliquid in maxime, totam. Aperiam.
+			</div>
+
+			<div class="col-md-2 col-sm-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolorem, ea quo aut, deserunt at unde id minus dolore debitis ex sapiente veniam provident temporibus ab cum blanditiis architecto cumque!
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="col-md-offset-4 col-sm-offset-4 col-md-4 col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolorem, ea quo aut, deserunt at unde id minus dolore debitis ex sapiente veniam provident temporibus ab cum blanditiis architecto cumque!
+			</div>					
+		</div>
+
+		
+
+		<div class="row" id="tabela">
+
+
+			<table class="table-bordered"><!-- table-striped table-condensed table-hover -->
+				<thead>
+					<tr id="dados">
+						<th id="teste">Nome</th>
+						<th></th>
+						<th>Notas</th>
+						<th></th>
+						<th>Média</th>
+					</tr>
+					<tbody>	
+						<tr>
+
+							<td>Emanuel</td>
+							<td><input type="number" id="a" value="0"></td>
+							<td><input type="number" id="b" value="0"></td>
+							<td><input type="number" id="c" value="0">=</td>
+							<td><output name="saida" for="a b c"></output></td>
+
+						</tr>				
+					</tbody>
+				</thead>
+			</table>
+		</div>
+
+
+
+
+	</div>
+
+	<div>
+		<button type="button" value="clique aqui" id="b1" onclick="clicar(b1)"> clique aqui</button>
+	</div>
+
+	
+
+</body>
+<script src="assets/js/treinamentojs.js"></script>
+<script src="assets/css/bootstrap.min.css"></script>
+
+<script> 
+	alert("E aí pessoal");
+	document.open();
+	document.write("Qual é velhinho?");
+	document.close();
+
+</script>
+</html>

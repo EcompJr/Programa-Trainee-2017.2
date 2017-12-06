@@ -1,0 +1,19 @@
+
+
+#imagem1{
+	height: 40%;
+	width: 30%;
+}
+.container-fluid .row div:first-child{
+	background-color: #FAFAFA;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 50%;
+}
+.container-fluid .row div:nth-child(2){
+	background-color: #AAAAAA;
+	width: 50%;
+}
+.container-fluid .row div:nth-child(3){
+	background-color: #1BD7FA;
+}
