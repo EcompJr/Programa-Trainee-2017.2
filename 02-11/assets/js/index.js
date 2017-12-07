@@ -1,5 +1,6 @@
 
 var q = false;
+var l = false;
 
 /*function button(){
 	document.getElementById("p3").innerHTML = "Its JS";
@@ -23,7 +24,7 @@ function acende(){
 
 function normal(){
 	if(q != true){
-			document.getElementById("q").src = "normal.jpg"
+		document.getElementById("q").src = "normal.jpg"
 	}
 }
 
