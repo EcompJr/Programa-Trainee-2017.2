@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Treinamento Ecomp-JR</title>
+	<link rel="shortcut icon" href="http://www.ecompjr.com.br/images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<h2>Tabela - Cálculo da Média Aritmética </h2>
+	<form id="numform" oninput="x.value=(parseFloat(a.value)+parseFloat(b.value)+parseFloat(c.value))/3">
+		<table id="tabela">
+			<thead> 
+				<tr> 
+					<th>Nome</th>
+					<th>Nota1</th>
+					<th>Nota2</th>
+					<th>Nota3</th>
+					<th>Média</th>
+				</tr>
+				<tr>
+					<td><input type="text" name="nome"></td>
+					<td><input type="number" id="a" name="a"></td>
+		    		<td><input type="number" id="b" name="b"></td>
+				    <td><input type="number" id="c" name="c"></td>
+				    <td><output form="numform" name="x" for="a b c"></output></td>
+		  		</tr>
+			</thead>
+		</table>
+	</form>
+</body>
+</html>

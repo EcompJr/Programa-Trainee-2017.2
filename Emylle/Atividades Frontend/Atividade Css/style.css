@@ -1,0 +1,31 @@
+/* Estilizando tabela HTML */
+
+#tabela tr th{ 
+	background: #ffc; /* Primeira linha da tabela com fundo creme */
+} 
+
+table, td, th{ 
+	border: 1px solid gray;
+}
+
+#tabela tr th:hover{
+	color: red;
+	font-size: 32px; /* Aumentar texto e mudar a cor; estilo hover */
+}
+
+#tabela tr input{
+	background: #eee; /* Linha de entrada de dados com fundo cinza */
+}
+
+#tabela tr td{ /* Célula de média com fundo preto e texto branco */
+	background: black; 
+	color: white;
+}
+
+table{
+	margin: 0 auto; /* Centraliza tabela */
+}
+
+h2{
+	text-align: center; /* Centraliza texto */
+}
