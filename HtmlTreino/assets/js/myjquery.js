@@ -1,20 +1,20 @@
-$(document).ready(function(){
-    $("p").click(function(){
+$(document).ready(function () {
+    $("p").click(function () {
         $(this).hide(500);
     });
 
-    $("h1").click(function(){
+    $("h1").click(function () {
 
     });
 
     $("#inputSobrenome").hide();
 
-    $("#buttonSobrenome").click(function(){
-    	$("#inputSobrenome").show();
+    $("#buttonSobrenome").click(function () {
+        $("#inputSobrenome").show();
     });
 
-    $("#buttonSubmit").click(function(){
-    	if($("#inputSobrenome").val() == "")
-    		alert("Por favor, escreva seu sobrenome");
+    $("#buttonSubmit").click(function () {
+        if ($("#inputSobrenome").val().length + $("#inputNome").val().length < 10)
+            alert("Nome Invalido");
     });
 });
