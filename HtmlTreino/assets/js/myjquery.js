@@ -16,5 +16,7 @@ $(document).ready(function () {
     $("#buttonSubmit").click(function () {
         if ($("#inputSobrenome").val().length + $("#inputNome").val().length < 10)
             alert("Nome Invalido");
+        else
+            alert("Nome Valido");
     });
 });
