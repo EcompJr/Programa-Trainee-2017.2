@@ -1,13 +1,6 @@
 
 var q = false;
-var l = false;
-
-/*function button(){
-	document.getElementById("p3").innerHTML = "Its JS";
-}
-function text(){
-	alert("TROUXA");
-}*/
+var x = false;
 
 function quebra(){
 	document.getElementById("q").src = "quebrada.jpg"
@@ -30,6 +23,31 @@ function normal(){
 
 function fix(){
 	if(q == "quebrada.jpg"){
+		return false;
+	}
+}
+/* LAMPADA 2 */
+function quebra1(){
+	document.getElementById("x").src = "quebrada.jpg"
+	x = true;
+}
+
+function acende1(){
+	if(x == false){
+		document.getElementById("x").src = "acende.jpg"
+	}else{
+		return false;
+	}
+}
+
+function normal1(){
+	if(x != true){
+		document.getElementById("x").src = "normal.jpg"
+	}
+}
+
+function fix1(){
+	if(x == "quebrada.jpg"){
 		return false;
 	}
 }
