@@ -16,7 +16,7 @@ body{
 	bottom: -40px;
 	width: auto;
 	height: auto;
-	background-image: url(../imagens/ecomp.);
+	background-image: url(../imagens/ecomp.png);
 	background-size: cover;
 	-webkit-filter: blur(5px);
 	z-index: 0;
@@ -149,4 +149,13 @@ a{
 	font-family: Arial;
 	font-size: 12px;
 	text-decoration:none; 	
+}
+h2{
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+.login h2 span{
+	color: #5379fa !important;
 }
